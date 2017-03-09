@@ -1,1 +1,35 @@
-/* Add your CSS rules in here... btw this is how you add a developer comment in css */
+body {
+  background-color: thistle;
+
+  margin: 0;
+}
+h1 {
+  text-align: right;
+
+  margin-right: 10px;
+}
+h2 {
+  margin-left: 10px;
+}
+img {
+  border: 2px solid purple;
+  border-radius: 5%;
+
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  float: left;
+}
+aside {
+  background-color: white;
+  color: purple;
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+}
+li:hover {
+  font-weight: bold;
+}
